@@ -144,6 +144,11 @@ div.collapse {
     margin-bottom: 1.5rem;
 }
 
+object {
+    max-width: 100%;
+    height: auto;
+}
+
 a.btn-view {
     display: block;
     background-color: #525659;
@@ -307,9 +312,13 @@ a.btn-view:hover {
         width: 100px;
         height: 100px;
     }
-    .collapse-video iframe {
-        height: 110px;
-        width: 200px;
+    .collapse-video iframe, object {
+        height: 220px !important;
+        width: 300px;
+        margin: 0 auto !important;
+    }
+    a.btn-view {
+        width: 300px;
         margin: 0 auto;
     }
     div.collapse {
@@ -317,7 +326,15 @@ a.btn-view:hover {
     }
 }
 
-
+@media (max-width: 360px) {
+    .collapse-video iframe, object {
+        height: 200px !important;
+        width: 250px;
+    }
+    a.btn-view {
+        width: 250px;
+    }
+}
 
 
 
