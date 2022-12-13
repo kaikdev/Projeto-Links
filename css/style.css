@@ -144,10 +144,6 @@ div.collapse {
     margin-bottom: 1.5rem;
 }
 
-div.collapse object {
-    min-height: 480px;
-}
-
 a.btn-view {
     background-color: #525659;
     color: #fff;
@@ -290,7 +286,31 @@ a.btn-view:hover {
     margin-bottom: 16px;
 }
 
-
+@media (max-width: 600px) {
+    header {
+        padding: 1rem 1rem 0;
+    }
+    .btn-share {
+        width: 35px;
+        height: 35px;
+    }
+    .btn-insc {
+        padding: 5px 20px;
+        font-size: .85rem;
+    }
+    .area-imagem {
+        width: 100px;
+        height: 100px;
+    }
+    .collapse-video iframe {
+        height: 110px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    div.collapse {
+        margin-bottom: 10px;
+    }
+}
 
 
 
