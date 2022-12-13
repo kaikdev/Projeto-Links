@@ -82,29 +82,29 @@ section.box-principal div {
 }
 
 .title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin: 1rem auto;
+    margin: 10px auto;
 }
 
 .descricao {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .peq-descricao {
-    margin: 2rem auto 1rem;
+    font-size: .8rem;
+    margin: 1rem auto;
 }
 
 a.title-collapses {
-    padding: 1rem;
+    padding: 10px;
     background-color: rgb(240, 240, 240);
     color: #000;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
-    min-height: 70px;
+    margin-bottom: 15px;
 }
 
 a.title-collapses:hover {
@@ -114,6 +114,7 @@ a.title-collapses:hover {
 }
 
 a.title-collapses span {
+    font-size: .8rem;
     font-weight: 600;
     margin: 0 auto;
 }
@@ -165,7 +166,6 @@ a.btn-view:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 2rem;
 }
 
 .area-sociais ul a {
