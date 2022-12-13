@@ -145,6 +145,7 @@ div.collapse {
 }
 
 a.btn-view {
+    display: block;
     background-color: #525659;
     color: #fff;
     padding: 10px;
@@ -271,6 +272,10 @@ a.btn-view:hover {
 
 .menu-modal button.ativado {
     border-color: #000;
+}
+
+.dados-modal {
+    min-height: 50px;
 }
 
 .dados-modal input {

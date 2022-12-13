@@ -28,8 +28,20 @@ ocultarDescricao.addEventListener('click', () => {
 
 emailAtivado.addEventListener('click', () => {
     emailAtivado.classList.toggle('ativado');
+    
+    telefoneAtivado.classList.toggle('ativado');
+    
+    collapseTelefone.style.display = 'none';
+
+    collapseEmail.style.display = 'block';
 })
 
 telefoneAtivado.addEventListener('click', () => {
     telefoneAtivado.classList.toggle('ativado');
+
+    emailAtivado.classList.toggle('ativado');
+
+    collapseEmail.style.display = 'none';
+
+    collapseTelefone.style.display = 'block';
 })
